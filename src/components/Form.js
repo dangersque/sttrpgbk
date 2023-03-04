@@ -16,8 +16,8 @@ const MyForm = (props) => {
     const newCounter = {
       id: new Date().getTime(),
       name: name,
-      val: val,
-      increment: increment,
+      val: parseInt(val),
+      increment: parseInt(increment),
       rate: rate,
       flag: false
     };
