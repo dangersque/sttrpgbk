@@ -1,5 +1,4 @@
 import React from 'react';
-// import { useState } from 'react';
 import './App.css';
 import { AppProvider } from './context/AppContext';
 import TimeKeeper from './components/TimeKeeper';
@@ -8,14 +7,15 @@ import CounterList from './components/CounterList';
 
 export default function App() {
   return (
+
     <AppProvider>
     <div>
       <TimeKeeper />
       <MyForm />
       <CounterList />
     </div>
-
     </AppProvider>
+
   )
 }
 //   const [turn, setTurn] = React.useState(0)

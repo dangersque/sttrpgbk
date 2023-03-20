@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { TiDelete } from 'react-icons/ti';
+// import { TiDelete } from 'react-icons/ti';
 import { AppContext } from '../context/AppContext';
 
 
@@ -45,7 +45,7 @@ const Counter = (props) => {
         step={ 1 } onChange={(event) => setIncrement(props.name, event.target.value)}>
         </input>
         <td>{props.rate}</td>
-        <td><TiDelete size='1.5em' onClick={() => handleDelete(props.name)}></TiDelete></td> 
+        <td><button size='1.5em' onClick={() => handleDelete(props.name)}></button></td> 
         </tr>
     );
 };
