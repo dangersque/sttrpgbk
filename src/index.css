@@ -22,7 +22,7 @@ body {
 .counter > button {
   height: 50px;
   width: 50px;
-  border-radius: 50%;
+  border-radius: 100%;
   border: none;
   cursor: pointer;
   background-color: #737373;

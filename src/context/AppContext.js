@@ -170,3 +170,38 @@ export const AppReducer = (state, action) => {
     }
     
 };
+
+// 1. Sets the initial state when the app loads
+
+
+// 2. Creates the context this is the thing our components import and use to get the state
+export const AppContext = createContext();
+
+// 3. Provider component - wraps the components we want to give access to the state
+// Accepts the children, which are the nested(wrapped) components
+export const AppProvider = (props) => {
+    // 4. Sets up the app state. takes a reducer, and an initial state
+    const [state, dispatch] = useReducer(AppReducer, initialState);
+
+    state.counters.forEach(function (counter) {
+        if (counter.val === 0 && counter.flag === false) {
+            alert(counter.name+ ' has reached 0!');
+            counter.flag = true
+        }
+    });
+
+    return (
+        <AppContext.Provider
+            value={{
+                counters: state.counters,
+                turn: state.turn,
+                minute: state.minute,
+                hour: state.hour,
+                day: state.day,
+                dispatch
+            }}
+        >
+            {props.children}
+        </AppContext.Provider>
+    );
+};
