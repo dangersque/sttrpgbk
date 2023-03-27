@@ -1,10 +1,4 @@
 import React, { createContext, useReducer, useEffect } from 'react';
-// import AsyncStorage from '@react-native-async-storage/async-storage';
-
-// 1. Sets the initial state when the app loads
-
-
-// 5. The reducer - this is used to update the state, based on the action
 
 // 2. Creates the context this is the thing our components import and use to get the state
 export const AppContext = createContext();
@@ -13,6 +7,7 @@ export const AppContext = createContext();
 // Accepts the children, which are the nested(wrapped) components
 export const AppProvider = (props) => {
     // 4. Sets up the app state. takes a reducer, and an initial state
+    // 1. Sets the initial state when the app loads
     function setinitialstate(){
 
         const data = JSON.parse(localStorage.getItem('MY_APP_STATE'));
@@ -66,6 +61,7 @@ export const AppProvider = (props) => {
     );
 };
 
+// 5. The reducer - this is used to update the state, based on the action
 export const AppReducer = (state, action) => {
 
     switch (action.type) {
@@ -154,7 +150,7 @@ export const AppReducer = (state, action) => {
             action.type = "DONE";                
             state.counters.forEach(function (counter) {
                 if (counter.name === action.payload.name) {
-                    counter.increment = action.payload.increment;}
+                    counter.increment = action.payload.val;}
             });
 
             return {
