@@ -150,7 +150,7 @@ export const AppReducer = (state, action) => {
             action.type = "DONE";                
             state.counters.forEach(function (counter) {
                 if (counter.name === action.payload.name) {
-                    counter.increment = action.payload.increment;}
+                    counter.increment = action.payload.val;}
             });
 
             return {
