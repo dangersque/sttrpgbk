@@ -1,5 +1,5 @@
 {
-  "homepage": "https://dangersque.github.io/sttrpgbk",
+  "homepage": "https://djkissel001.github.io/sttrpgbk",
   "name": "rpg-bk",
   "version": "0.1.0",
   "private": true,
@@ -17,7 +17,9 @@
     "react-router-dom": "^6.9.0",
     "react-scripts": "^5.0.1",
     "redux-persist": "^6.0.0",
-    "web-vitals": "^2.1.4"
+    "styled-components": "^5.3.3",
+    "web-vitals": "^2.1.4",
+    "webfontloader": "^1.6.28"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -49,4 +51,3 @@
     "gh-pages": "^5.0.0"
   }
 }
-

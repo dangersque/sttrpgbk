@@ -1,43 +1,324 @@
-.App {
+import React from "react";
+import styled from "styled-components";
+
+export const FrameRootRootRoot1 = ({}) => {
+  return (
+    <FrameRootRootRoot>
+      <Bookkeeper>
+        Simple <SimpleTTRPGBookkeeper>TTRPG</SimpleTTRPGBookkeeper>
+        <SimpleTTRPGBookkeeper1> Bookkeeper</SimpleTTRPGBookkeeper1>
+      </Bookkeeper>
+      <Countdown>
+        <Group2>
+          <UnitElapsedTime>
+            <ElapsedTime>1</ElapsedTime>
+            <DaysElapsed>Days</DaysElapsed>
+          </UnitElapsedTime>
+          <AddDays>
+            <DaysToAdd>+7</DaysToAdd>
+          </AddDays>
+        </Group2>
+        <Group3>
+          <UnitElapsedTime1>
+            <HoursElapsed>Hours</HoursElapsed>
+            <HoursToAdd>1</HoursToAdd>
+          </UnitElapsedTime1>
+          <AddHours>
+            <DaysToAdd>+12</DaysToAdd>
+          </AddHours>
+        </Group3>
+        <Group4>
+          <UnitElapsedTime2>
+            <MinutesElapsed>Minutes</MinutesElapsed>
+            <HoursToAdd>1</HoursToAdd>
+          </UnitElapsedTime2>
+          <AddMinutes>
+            <DaysToAdd>+15</DaysToAdd>
+          </AddMinutes>
+        </Group4>
+        <Group5>
+          <UnitElapsedTime3>
+            <TurnsElapsed>Turns</TurnsElapsed>
+            <HoursToAdd>1</HoursToAdd>
+          </UnitElapsedTime3>
+          <AddTurns>
+            <DaysToAdd>+5</DaysToAdd>
+          </AddTurns>
+        </Group5>
+      </Countdown>
+      <Group16>
+        <AddSeconds>
+          <DaysToAdd>+2</DaysToAdd>
+        </AddSeconds>
+        <Group12>
+          <AddOne>
+            <DaysToAdd>+1</DaysToAdd>
+          </AddOne>
+          <SubstractOne>
+            <DaysToAdd>-1</DaysToAdd>
+          </SubstractOne>
+        </Group12>
+        <AddSeconds1>
+          <DaysToAdd>+2</DaysToAdd>
+        </AddSeconds1>
+        <Group13>
+          <AddOne1>
+            <DaysToAdd>+1</DaysToAdd>
+          </AddOne1>
+          <SubstractOne1>
+            <DaysToAdd>-1</DaysToAdd>
+          </SubstractOne1>
+        </Group13>
+        <AddTurns1>
+          <DaysToAdd>+5</DaysToAdd>
+        </AddTurns1>
+        <Group12>
+          <AddOne2>
+            <DaysToAdd>+1</DaysToAdd>
+          </AddOne2>
+          <SubstractOne2>
+            <DaysToAdd>-1</DaysToAdd>
+          </SubstractOne2>
+        </Group12>
+        <AddSeconds2>
+          <DaysToAdd>+2</DaysToAdd>
+        </AddSeconds2>
+        <AddOne3>
+          <DaysToAdd>+1</DaysToAdd>
+        </AddOne3>
+      </Group16>
+      <SubstractOne3>
+        <DaysToAdd>-1</DaysToAdd>
+      </SubstractOne3>
+      <Group1>
+        <TotalCounters>Counters</TotalCounters>
+        <Form1>
+          <CounterName>
+            <Name1>Name</Name1>
+          </CounterName>
+          <CounterValue>
+            <Name1>Value</Name1>
+          </CounterValue>
+          <CounterIncrement>
+            <Name1>Increment</Name1>
+          </CounterIncrement>
+          <CounterRate>
+            <Name1>Rate</Name1>
+          </CounterRate>
+          <SubmitForms>
+            <Submit1>Submit</Submit1>
+          </SubmitForms>
+        </Form1>
+      </Group1>
+      <CounterData>
+        <Group6>
+          <CounterName1>
+            <FirstCounterName>Name</FirstCounterName>
+          </CounterName1>
+          <CounterName2>
+            <SecondCounterName>Name</SecondCounterName>
+          </CounterName2>
+          <CounterName3>
+            <ThirdCounterName>Name</ThirdCounterName>
+          </CounterName3>
+          <CounterName4>
+            <FourthCounterName>Name</FourthCounterName>
+          </CounterName4>
+        </Group6>
+        <Group7>
+          <CounterValue1>
+            <FirstCounterName>Value</FirstCounterName>
+          </CounterValue1>
+          <CounterName2>
+            <SecondCounterName>Value</SecondCounterName>
+          </CounterName2>
+          <CounterName3>
+            <ThirdCounterName>Value</ThirdCounterName>
+          </CounterName3>
+          <CounterName4>
+            <FourthCounterName>Value</FourthCounterName>
+          </CounterName4>
+        </Group7>
+        <Group7>
+          <CounterIncrement1>
+            <FirstCounterName>Increment</FirstCounterName>
+          </CounterIncrement1>
+          <CounterIncrement2>
+            <SecondCounterName>Increment</SecondCounterName>
+          </CounterIncrement2>
+          <CounterIncrement3>
+            <ThirdCounterName>Increment</ThirdCounterName>
+          </CounterIncrement3>
+          <CounterIncrement4>
+            <FourthCounterName>Increment</FourthCounterName>
+          </CounterIncrement4>
+        </Group7>
+        <Group7>
+          <CounterRate1>
+            <FirstCounterName>Rate</FirstCounterName>
+          </CounterRate1>
+          <CounterRate2>
+            <SecondCounterName>Rate</SecondCounterName>
+          </CounterRate2>
+          <CounterRate3>
+            <ThirdCounterName>Rate</ThirdCounterName>
+          </CounterRate3>
+          <CounterRate4>
+            <FourthCounterName>Rate</FourthCounterName>
+          </CounterRate4>
+        </Group7>
+        <Group10>
+          <DeleteButton>
+            <FirstCounterName>Delete</FirstCounterName>
+          </DeleteButton>
+          <Vector6>
+            <FirstVector>
+              <Vector src="https://file.rendit.io/n/6oDf1WjWBTjNB7HYUEL7.svg" />
+            </FirstVector>
+          </Vector6>
+          <Vector1>
+            <FirstVector>
+              <Vector src="https://file.rendit.io/n/6oDf1WjWBTjNB7HYUEL7.svg" />
+            </FirstVector>
+          </Vector1>
+          <Vector2>
+            <FirstVector>
+              <Vector src="https://file.rendit.io/n/6oDf1WjWBTjNB7HYUEL7.svg" />
+            </FirstVector>
+          </Vector2>
+        </Group10>
+      </CounterData>
+    </FrameRootRootRoot>
+  );
+};
+
+const DaysToAdd = styled.div`
+  font-size: 24px;
+  font-weight: 600;
+  font-family: Inter;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  white-space: nowrap;
+  text-decoration-line: underline;
+  box-sizing: border-box;
+`;
+const HoursToAdd = styled.div`
+  position: relative;
+  font-size: 96px;
+  font-weight: 700;
+  font-family: Inter;
+  text-align: center;
+  white-space: nowrap;
+  box-sizing: border-box;
+`;
+const Group12 = styled.div`
+  width: 14%;
+  position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: flex-start;
+  align-self: center;
+  align-items: flex-end;
+  margin: 0px 82.2px 0px 0px;
+  padding: 0px 0px 97.4px 0px;
+  box-sizing: border-box;
+`;
+const Name1 = styled.div`
+  color: #474747;
+  font-size: 20px;
+  font-family: MedievalSharp;
+  line-height: 40px;
+  white-space: nowrap;
+  text-decoration-line: underline;
+  box-sizing: border-box;
+`;
+const FirstCounterName = styled.div`
+  color: #eeeeee;
+  font-size: 32px;
+  font-family: MedievalSharp;
+  text-align: justify;
+  white-space: nowrap;
+  text-decoration-line: underline;
+  box-sizing: border-box;
+`;
+const CounterName2 = styled.div`
+  width: 99.93%;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.frameRootRootRoot {
+  padding: 11.5px 119px;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+`;
+const SecondCounterName = styled.div`
+  color: #474747;
+  font-size: 20px;
+  font-family: MedievalSharp;
+  text-align: justify;
+  white-space: nowrap;
+  text-decoration-line: underline;
+  box-sizing: border-box;
+`;
+const CounterName3 = styled.div`
+  width: 99.93%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 11.5px 119px;
+  box-sizing: border-box;
+  background-color: #7d7272;
+`;
+const ThirdCounterName = styled.div`
+  color: #eeeeee;
+  font-size: 20px;
+  font-family: MedievalSharp;
+  text-align: justify;
+  white-space: nowrap;
+  text-decoration-line: underline;
+  box-sizing: border-box;
+`;
+const CounterName4 = styled.div`
+  width: 99.93%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 11.5px 119px;
+  box-sizing: border-box;
+  background-color: #f8f7f7;
+`;
+const FourthCounterName = styled.div`
+  color: #2e2d2d;
+  font-size: 20px;
+  font-family: MedievalSharp;
+  text-align: justify;
+  white-space: nowrap;
+  text-decoration-line: underline;
+  box-sizing: border-box;
+`;
+const Group7 = styled.div`
+  width: 19.99%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+`;
+const FirstVector = styled.div`
+  width: 19.4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 4px 5px;
+  box-sizing: border-box;
+  background-size: cover;
+  background-image: url("https://file.rendit.io/n/HLDV3Wa1JrA7RSxNWGML.svg");
+`;
+const Vector = styled.img`
+  width: 6px;
+  min-width: 0px;
+  min-height: 0px;
+  box-sizing: border-box;
+`;
+const FrameRootRootRoot = styled.div`
   position: relative;
   gap: 46px;
   display: flex;
@@ -47,8 +328,8 @@
   box-sizing: border-box;
   background-color: #847e7e;
   overflow: hidden;
-}
-.bookkeeper {
+`;
+const Bookkeeper = styled.div`
   width: 100%;
   height: 24.66%;
   position: relative;
@@ -64,8 +345,8 @@
   text-transform: uppercase;
   text-decoration-line: underline;
   box-sizing: border-box;
-}
-.simpleTtrpgBookkeeper {
+`;
+const SimpleTTRPGBookkeeper = styled.div`
   display: contents;
   color: #ffffff;
   font-size: 96px;
@@ -74,8 +355,8 @@
   letter-spacing: 48px;
   text-transform: uppercase;
   text-decoration-line: underline;
-}
-.simpleTtrpgBookkeeper1 {
+`;
+const SimpleTTRPGBookkeeper1 = styled.div`
   display: contents;
   color: #d9d9d9;
   font-size: 96px;
@@ -84,8 +365,8 @@
   letter-spacing: 48px;
   text-transform: uppercase;
   text-decoration-line: underline;
-}
-.countdown {
+`;
+const Countdown = styled.div`
   width: 100%;
   height: 21.2%;
   left: 0px;
@@ -99,9 +380,11 @@
   box-sizing: border-box;
   background-position: 50% 50%;
   background-size: cover;
+  background-blend-mode: ;
+  background-image: ;
   box-shadow: inset 0px 6px 0px 0px #000000, inset -6px 0px 0px 0px #000000;
-}
-.group2 {
+`;
+const Group2 = styled.div`
   width: 23.51%;
   position: relative;
   display: flex;
@@ -111,8 +394,8 @@
   margin: 0px 0.11px 0px -10px;
   padding: 97.7px 0px 0px 0px;
   box-sizing: border-box;
-}
-.unitElapsedTime {
+`;
+const UnitElapsedTime = styled.div`
   width: 183px;
   left: 89.96261596679688px;
   top: 0px;
@@ -126,8 +409,8 @@
   box-sizing: border-box;
   background-size: cover;
   background-image: url("https://file.rendit.io/n/YdlfA8pJ127tQxBWERGJ.svg");
-}
-.elapsedTime {
+`;
+const ElapsedTime = styled.div`
   margin: 0px 0px 0px 22.5px;
   font-size: 96px;
   font-weight: 700;
@@ -135,8 +418,8 @@
   text-align: center;
   white-space: nowrap;
   box-sizing: border-box;
-}
-.daysElapsed {
+`;
+const DaysElapsed = styled.div`
   font-size: 40px;
   font-family: MedievalSharp;
   -webkit-text-stroke-color: transparent;
@@ -147,8 +430,8 @@
   -webkit-background-clip: text;
   box-sizing: border-box;
   background-image: linear-gradient(180deg, #000000 0%, #000000 100%);
-}
-.addDays {
+`;
+const AddDays = styled.div`
   width: 100px;
   position: relative;
   display: flex;
@@ -159,10 +442,8 @@
   box-sizing: border-box;
   background-size: cover;
   background-image: url("https://file.rendit.io/n/bWIjzh8wDr6AuAbDe3yf.svg");
-}
-
-
-.group3 {
+`;
+const Group3 = styled.div`
   width: 23.51%;
   position: relative;
   display: flex;
@@ -171,8 +452,8 @@
   align-items: flex-start;
   padding: 98.4px 0px 0px 0px;
   box-sizing: border-box;
-}
-.unitElapsedTime1 {
+`;
+const UnitElapsedTime1 = styled.div`
   width: 183px;
   left: 89.96260070800781px;
   top: 0px;
@@ -185,8 +466,8 @@
   box-sizing: border-box;
   background-size: cover;
   background-image: url("https://file.rendit.io/n/9fsXFjijt2VrniozhFsv.svg");
-}
-.hoursElapsed {
+`;
+const HoursElapsed = styled.div`
   width: 108px;
   height: 45px;
   left: 35.23442077636719px;
@@ -202,8 +483,8 @@
   -webkit-background-clip: text;
   box-sizing: border-box;
   background-image: linear-gradient(180deg, #000000 0%, #000000 100%);
-}
-.addHours {
+`;
+const AddHours = styled.div`
   width: 100px;
   position: relative;
   display: flex;
@@ -214,8 +495,8 @@
   box-sizing: border-box;
   background-size: cover;
   background-image: url("https://file.rendit.io/n/SFJfm6k8tev91uAquGWf.svg");
-}
-.group4 {
+`;
+const Group4 = styled.div`
   width: 23.51%;
   position: relative;
   display: flex;
@@ -225,8 +506,8 @@
   margin: 0px 0.11px 0px 0px;
   padding: 97.7px 0px 0px 0px;
   box-sizing: border-box;
-}
-.unitElapsedTime2 {
+`;
+const UnitElapsedTime2 = styled.div`
   width: 183px;
   left: 89.96261596679688px;
   top: 0px;
@@ -239,8 +520,8 @@
   box-sizing: border-box;
   background-size: cover;
   background-image: url("https://file.rendit.io/n/OhQl9cfANq98s2ThPRV1.svg");
-}
-.minutesElapsed {
+`;
+const MinutesElapsed = styled.div`
   width: 143px;
   height: 45px;
   left: 19.53753662109375px;
@@ -256,8 +537,8 @@
   -webkit-background-clip: text;
   box-sizing: border-box;
   background-image: linear-gradient(180deg, #000000 0%, #000000 100%);
-}
-.addMinutes {
+`;
+const AddMinutes = styled.div`
   width: 100px;
   position: relative;
   display: flex;
@@ -268,8 +549,8 @@
   box-sizing: border-box;
   background-size: cover;
   background-image: url("https://file.rendit.io/n/kBvCJ7l5W4zzi83pHFBZ.svg");
-}
-.group5 {
+`;
+const Group5 = styled.div`
   width: 23.51%;
   position: relative;
   display: flex;
@@ -278,8 +559,8 @@
   align-items: flex-start;
   padding: 97.7px 0px 0px 0px;
   box-sizing: border-box;
-}
-.unitElapsedTime3 {
+`;
+const UnitElapsedTime3 = styled.div`
   width: 183px;
   left: 89.962646484375px;
   top: 0px;
@@ -292,8 +573,8 @@
   box-sizing: border-box;
   background-size: cover;
   background-image: url("https://file.rendit.io/n/7vPx1bF5quny32o7AZNp.svg");
-}
-.turnsElapsed {
+`;
+const TurnsElapsed = styled.div`
   width: 104px;
   height: 45px;
   left: 42.7344970703125px;
@@ -309,8 +590,8 @@
   -webkit-background-clip: text;
   box-sizing: border-box;
   background-image: linear-gradient(180deg, #000000 0%, #000000 100%);
-}
-.addTurns {
+`;
+const AddTurns = styled.div`
   width: 100px;
   position: relative;
   display: flex;
@@ -321,8 +602,8 @@
   box-sizing: border-box;
   background-size: cover;
   background-image: url("https://file.rendit.io/n/0KaJxOTLUITdVMF0GsJQ.svg");
-}
-.group16 {
+`;
+const Group16 = styled.div`
   width: 90.32%;
   position: relative;
   gap: 2.85px;
@@ -332,8 +613,8 @@
   align-self: center;
   align-items: flex-end;
   box-sizing: border-box;
-}
-.addSeconds {
+`;
+const AddSeconds = styled.div`
   width: 7.78%;
   display: flex;
   flex-direction: column;
@@ -343,8 +624,8 @@
   box-sizing: border-box;
   background-size: cover;
   background-image: url("https://file.rendit.io/n/StXcuuYb9KBjGYTTbZ6p.svg");
-}
-.addOne {
+`;
+const AddOne = styled.div`
   width: 100px;
   height: 108px;
   left: 0px;
@@ -358,8 +639,8 @@
   box-sizing: border-box;
   background-size: cover;
   background-image: url("https://file.rendit.io/n/ZVGcZEaYR5BUpbM2Dues.svg");
-}
-.substractOne {
+`;
+const SubstractOne = styled.div`
   width: 100px;
   position: relative;
   display: flex;
@@ -370,8 +651,8 @@
   box-sizing: border-box;
   background-size: cover;
   background-image: url("https://file.rendit.io/n/1I0AxpvWFrZD2sSBrnVV.svg");
-}
-.addSeconds1 {
+`;
+const AddSeconds1 = styled.div`
   width: 7.78%;
   display: flex;
   flex-direction: column;
@@ -381,8 +662,8 @@
   box-sizing: border-box;
   background-size: cover;
   background-image: url("https://file.rendit.io/n/De4QkP9lbzb1E9PIR4CF.svg");
-}
-.group13 {
+`;
+const Group13 = styled.div`
   width: 14%;
   position: relative;
   display: flex;
@@ -393,8 +674,8 @@
   margin: 0px 82.1px 0px 0px;
   padding: 0px 0px 97.1px 0px;
   box-sizing: border-box;
-}
-.addOne1 {
+`;
+const AddOne1 = styled.div`
   width: 100px;
   height: 108px;
   left: 0px;
@@ -408,8 +689,8 @@
   box-sizing: border-box;
   background-size: cover;
   background-image: url("https://file.rendit.io/n/flrlj6hpJaGVz72AS9Vu.svg");
-}
-.substractOne1 {
+`;
+const SubstractOne1 = styled.div`
   width: 100px;
   position: relative;
   display: flex;
@@ -420,8 +701,8 @@
   box-sizing: border-box;
   background-size: cover;
   background-image: url("https://file.rendit.io/n/xPJUosh038on3TuPJlGN.svg");
-}
-.addTurns1 {
+`;
+const AddTurns1 = styled.div`
   width: 7.78%;
   display: flex;
   flex-direction: column;
@@ -431,8 +712,8 @@
   box-sizing: border-box;
   background-size: cover;
   background-image: url("https://file.rendit.io/n/plfZMIJKpuORbLZXY57c.svg");
-}
-.addOne2 {
+`;
+const AddOne2 = styled.div`
   width: 100px;
   height: 108px;
   left: 0px;
@@ -446,8 +727,8 @@
   box-sizing: border-box;
   background-size: cover;
   background-image: url("https://file.rendit.io/n/W3Z0bGfy1Xmcala0tjc4.svg");
-}
-.substractOne2 {
+`;
+const SubstractOne2 = styled.div`
   width: 100px;
   position: relative;
   display: flex;
@@ -458,8 +739,8 @@
   box-sizing: border-box;
   background-size: cover;
   background-image: url("https://file.rendit.io/n/xKmvhMaA14Iu15PVjmPE.svg");
-}
-.addSeconds2 {
+`;
+const AddSeconds2 = styled.div`
   width: 7.78%;
   display: flex;
   flex-direction: column;
@@ -469,8 +750,8 @@
   box-sizing: border-box;
   background-size: cover;
   background-image: url("https://file.rendit.io/n/nuD4yDxo3YJwMcs4pXMz.svg");
-}
-.addOne3 {
+`;
+const AddOne3 = styled.div`
   width: 7.78%;
   display: flex;
   flex-direction: column;
@@ -480,8 +761,8 @@
   box-sizing: border-box;
   background-size: cover;
   background-image: url("https://file.rendit.io/n/ZQ34MSfwnJ5O56c949P6.svg");
-}
-.substractOne3 {
+`;
+const SubstractOne3 = styled.div`
   width: 100px;
   height: 108px;
   left: 1356.037353515625px;
@@ -495,8 +776,8 @@
   box-sizing: border-box;
   background-size: cover;
   background-image: url("https://file.rendit.io/n/rBrVVIPbgRESDAQYtmfr.svg");
-}
-.group1 {
+`;
+const Group1 = styled.div`
   width: 100%;
   position: relative;
   display: flex;
@@ -505,8 +786,8 @@
   margin: 0px 0px 14px 0px;
   padding: 104px 0px 0px 0px;
   box-sizing: border-box;
-}
-.totalCounters {
+`;
+const TotalCounters = styled.div`
   width: 100%;
   height: 108px;
   left: 0px;
@@ -518,8 +799,8 @@
   text-align: center;
   text-decoration-line: underline;
   box-sizing: border-box;
-}
-.form1 {
+`;
+const Form1 = styled.div`
   width: 100%;
   position: relative;
   gap: 8px;
@@ -531,10 +812,11 @@
   box-sizing: border-box;
   background-position: 50% 50%;
   background-size: cover;
-
+  background-blend-mode: ;
+  background-image: ;
   box-shadow: inset 0px 5px 0px 0px #000000, inset 5px 0px 0px 0px #000000;
-}
-.counterName {
+`;
+const CounterName = styled.div`
   width: 23.95%;
   display: flex;
   flex-direction: column;
@@ -549,8 +831,8 @@
   box-sizing: border-box;
   background-color: #ffffff;
   overflow: hidden;
-}
-.counterValue {
+`;
+const CounterValue = styled.div`
   width: 23.29%;
   display: flex;
   flex-direction: column;
@@ -564,8 +846,8 @@
   box-sizing: border-box;
   background-color: #ffffff;
   overflow: hidden;
-}
-.counterIncrement {
+`;
+const CounterIncrement = styled.div`
   width: 23.37%;
   display: flex;
   flex-direction: column;
@@ -579,8 +861,8 @@
   box-sizing: border-box;
   background-color: #ffffff;
   overflow: hidden;
-}
-.counterRate {
+`;
+const CounterRate = styled.div`
   width: 21.48%;
   display: flex;
   flex-direction: column;
@@ -594,8 +876,8 @@
   box-sizing: border-box;
   background-color: #ffffff;
   overflow: hidden;
-}
-.submitForms {
+`;
+const SubmitForms = styled.div`
   width: 7.9%;
   display: flex;
   flex-direction: column;
@@ -608,8 +890,8 @@
   box-sizing: border-box;
   background-color: #ab0627;
   overflow: hidden;
-}
-.submit1 {
+`;
+const Submit1 = styled.div`
   color: #ffffff;
   font-size: 20px;
   font-family: MedievalSharp;
@@ -618,8 +900,8 @@
   white-space: nowrap;
   text-decoration-line: underline;
   box-sizing: border-box;
-}
-.counterData {
+`;
+const CounterData = styled.div`
   width: 100%;
   position: relative;
   display: flex;
@@ -629,19 +911,21 @@
   box-sizing: border-box;
   background-position: 50% 50%;
   background-size: cover;
+  background-blend-mode: ;
+  background-image: ;
   box-shadow: inset -5px 0px 0px 0px #000000, inset 0px 5px 0px 0px #000000,
     inset -5px 0px 0px 0px #000000, inset 0px 5px 0px 0px #000000,
     inset 5px 0px 0px 0px #000000, inset 0px -5px 0px 0px #000000;
-}
-.group6 {
+`;
+const Group6 = styled.div`
   width: 19.99%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   margin: 0px 0px 31px 0px;
   box-sizing: border-box;
-}
-.counterName1 {
+`;
+const CounterName1 = styled.div`
   width: 99.93%;
   display: flex;
   flex-direction: column;
@@ -649,8 +933,8 @@
   padding: 5px 103px;
   box-sizing: border-box;
   background-color: #9a0b0b;
-}
-.counterValue1 {
+`;
+const CounterValue1 = styled.div`
   width: 99.93%;
   display: flex;
   flex-direction: column;
@@ -658,8 +942,8 @@
   padding: 5px 104px;
   box-sizing: border-box;
   background-color: #9a0b0b;
-}
-.counterIncrement1 {
+`;
+const CounterIncrement1 = styled.div`
   width: 99.93%;
   display: flex;
   flex-direction: column;
@@ -667,8 +951,8 @@
   padding: 5px 70.6px;
   box-sizing: border-box;
   background-color: #9a0b0b;
-}
-.counterIncrement2 {
+`;
+const CounterIncrement2 = styled.div`
   width: 99.93%;
   display: flex;
   flex-direction: column;
@@ -676,8 +960,8 @@
   padding: 11.5px 98.1px;
   box-sizing: border-box;
   background-color: #f8f8f8;
-}
-.counterIncrement3 {
+`;
+const CounterIncrement3 = styled.div`
   width: 99.93%;
   display: flex;
   flex-direction: column;
@@ -685,8 +969,8 @@
   padding: 11.5px 98.1px;
   box-sizing: border-box;
   background-color: #7d7272;
-}
-.counterIncrement4 {
+`;
+const CounterIncrement4 = styled.div`
   width: 99.93%;
   display: flex;
   flex-direction: column;
@@ -694,8 +978,8 @@
   padding: 11.5px 98.1px;
   box-sizing: border-box;
   background-color: #f8f7f7;
-}
-.counterRate1 {
+`;
+const CounterRate1 = styled.div`
   width: 99.93%;
   display: flex;
   flex-direction: column;
@@ -703,8 +987,8 @@
   padding: 5px 113px;
   box-sizing: border-box;
   background-color: #9a0b0b;
-}
-.counterRate2 {
+`;
+const CounterRate2 = styled.div`
   width: 99.93%;
   display: flex;
   flex-direction: column;
@@ -712,8 +996,8 @@
   padding: 11.5px 125px;
   box-sizing: border-box;
   background-color: #f8f8f8;
-}
-.counterRate3 {
+`;
+const CounterRate3 = styled.div`
   width: 99.93%;
   display: flex;
   flex-direction: column;
@@ -721,8 +1005,8 @@
   padding: 11.5px 125px;
   box-sizing: border-box;
   background-color: #7d7272;
-}
-.counterRate4 {
+`;
+const CounterRate4 = styled.div`
   width: 99.93%;
   display: flex;
   flex-direction: column;
@@ -730,15 +1014,15 @@
   padding: 11.5px 125px;
   box-sizing: border-box;
   background-color: #f8f7f7;
-}
-.group10 {
+`;
+const Group10 = styled.div`
   width: 19.99%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   box-sizing: border-box;
-}
-.deleteButton {
+`;
+const DeleteButton = styled.div`
   width: 99.93%;
   display: flex;
   flex-direction: column;
@@ -747,8 +1031,8 @@
   padding: 5px 100px;
   box-sizing: border-box;
   background-color: #9a0b0b;
-}
-.vector6 {
+`;
+const Vector6 = styled.div`
   width: 99.93%;
   display: flex;
   flex-direction: column;
@@ -757,8 +1041,8 @@
   padding: 16px 135px;
   box-sizing: border-box;
   background-color: #f8f8f8;
-}
-.vector1 {
+`;
+const Vector1 = styled.div`
   width: 99.93%;
   display: flex;
   flex-direction: column;
@@ -767,8 +1051,8 @@
   padding: 16px 135px;
   box-sizing: border-box;
   background-color: #7d7272;
-}
-.vector2 {
+`;
+const Vector2 = styled.div`
   width: 99.93%;
   display: flex;
   flex-direction: column;
@@ -777,52 +1061,4 @@
   padding: 16px 135px;
   box-sizing: border-box;
   background-color: #f8f7f7;
-}
-.resetall {
-  width: 150%;
-  font-family: MedievalSharp;
-  font-size: 20px;
-  align-items: center;
-}
-
-.textform {
-  width: 15%;
-  font-size: 30px;
-}
-
-.delete {
-  width: 30px;
-  height: 26px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.counterInput {
-  /* width: 100%; */
-  max-width: 100px;
-  height: 39px;
-  font-size: 32px;
-  align-items: center;
-  max-height: 100px;
-}
-
-.counterRows {
-  text-align: center;
-
-}
-
-.footer {
-  background-color: #f8f8f8;
-  padding: 20px 0;
-  text-align: center;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
+`;

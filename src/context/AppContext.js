@@ -21,6 +21,7 @@ export const AppProvider = (props) => {
                 { id: "Rations", name: 'Rations', val: 10, increment: -1, rate: 'Per Day', flag: false },
                 { id: "Water", name: 'Water', val: 22, increment: -2, rate: 'Per Day', flag: false },
                 { id: "Torch", name: 'Torch', val: 3, increment: -1, rate: 'Per Hour', flag: false },
+                { id: "Potion", name: 'Potion', val: 5, increment: -1, rate: 'Per Hour', flag: false },
                 
             ],
         }; 

@@ -4,17 +4,34 @@ import { AppProvider } from './context/AppContext';
 import TimeKeeper from './components/TimeKeeper';
 import MyForm from './components/Form';
 import CounterList from './components/CounterList';
+import Counter from './components/Counter';
+import WebFont from 'webfontloader';
+import { StyledComponent } from 'styled-components';
+import { FrameRootRootRoot1 } from './components/ren';
+import Title
+ from './components/Title';
+
+ 
+WebFont.load({
+  google: {
+    families: [
+      "Poppins",
+      "Bigshot One:400",
+      "MedievalSharp:400",
+      "Inter:600,700",
+    ],
+  },
+});
 
 export default function App() {
   return (
 
     <AppProvider>
-    <div>
-      <TimeKeeper />
-      <MyForm />
-      <CounterList />
-    </div>
-    </AppProvider>
+      <Title/>    
+      <TimeKeeper/>
+      <MyForm/>
+      <CounterList/> 
+      </AppProvider>
 
   )
 }
